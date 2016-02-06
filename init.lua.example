@@ -1,0 +1,6 @@
+local hotkey = require "mjolnir.hotkey"
+local lockscreen = require "mjolnir.lx.lockscreen"
+
+hotkey.bind({"cmd"}, "l", function()
+  lockscreen.lockscreen()
+end)

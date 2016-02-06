@@ -5,7 +5,10 @@ version = "0.1-1"
 local url = "github.com/lx75249/mjolnir.lx.lockscreen"
 local desc = "Mjolnir module to lock screen immediately"
 
-source = {url = "git://" .. url}
+source = {
+  url = "git://" .. url,
+  dir = "mjolnir.lx.lockscreen"
+}
 description = {
   summary = desc,
   detailed = desc,
